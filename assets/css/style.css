@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* general directionality for the boxes?*/
+/* general directionality for the boxes */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +74,41 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/* Collapsed these 3 classes into a single class */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Collapsed these 3 classes into a single class */
+.content img {
+    max-height: 200px;
+}
+/* Applied an id, since each box is a separate element.  Changed height to sit evenly with content.*/
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 287px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 287px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 287px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -84,79 +118,22 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
     color: #ffffff;
 }
-/* TODO: collapse these 3 classes into a single class and apply them to the html file*/
+/* Collapsed these 3 classes into a single class, 'benefits' */
 
-/* TODO: collapse these 3 classes into a single class and apply them to the html file*/
+/* Collapsed these 3 classes into a single class and apply them to the html file*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* TODO: collapse these 3 classes into a single class and apply them to the html file*/
+/* Collapsed these 3 classes into a single class */
 
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* TODO: collapse these 3 classes into a single class and apply them to the html file, edited sizes to allow visual consistency within*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 318px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 318px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 318px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* TODO: collapse these 3 classes into a single class and apply them to the html file*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* TODO: collapse these 3 classes into a single class and apply them to the html file*/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
